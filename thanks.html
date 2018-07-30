@@ -51,6 +51,13 @@
     <script src="js/owl.carousel.min.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+    
+    <!-- Page View Tracking -->
+    <script>
+    mixpanel.track("Thanks Page Viewed", {"First Time": "TRUE"}, function() {
+      setTimeout(mixpanel.register({"First Time": "FALSE"}), 500);
+    });
+    </script>
 
 </body>
 

@@ -78,7 +78,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h1>Get Cashew</h1>
             <p class="tagline">Working for yourself is empowering. But finding clients, delivering the work, doing your accounts, making sense of your tax return can be very time consuming.</p>
             <p class="tagline" style="margin-top:1em;">With Cashew, get a real time picture of your business financial health by simply linking your bank account. You can now focus on delivering value.</p>
-         <a class="btn btn-lg btn-outline-light mt-5" href="#signup">Sign Up Now</a>
+         <a class="btn btn-lg btn-outline-light mt-5" href="#signup" onclick="mixpanel.track('signup now button')">Sign Up Now</a>
         </div>
         <div class="img-holder mt-5"><img src="images/cashew-app.png" alt="phone" class="img-fluid"></div>
     </header>
@@ -261,7 +261,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="form-group input-group my-3">
                       <input type="email" value="" name="EMAIL" class="form-control" placeholder="your@email.com" aria-label="your@email.com" aria-describedby="basic-addon2" required>
                       <div class="input-group-append">
-                        <button type="submit" class="btn btn-lg btn-outline btn-outline-light" type="button" id="mc-embedded-subscribe">Sign Up</button>
+                        <button type="submit" class="btn btn-lg btn-outline btn-outline-light" type="button" id="mc-embedded-subscribe" onclick="mixpanel.track('signup')">Sign Up</button>
                       </div>
                     </div>
                   </form>
